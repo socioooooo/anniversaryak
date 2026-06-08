@@ -3,15 +3,21 @@ import { useRef, useState } from 'react';
 import { X, Heart } from 'lucide-react';
 
 const memories = [
-  { id: 1, caption: 'Our first adventure together', aspect: 'tall', pexels: 'https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=400' },
-  { id: 2, caption: 'Sunset walks and endless talks', aspect: 'wide', pexels: 'https://images.pexels.com/photos/1194256/pexels-photo-1194256.jpeg?auto=compress&cs=tinysrgb&w=600' },
-  { id: 3, caption: 'Coffee dates that lasted hours', aspect: 'square', pexels: 'https://images.pexels.com/photos/1415131/pexels-photo-1415131.jpeg?auto=compress&cs=tinysrgb&w=400' },
-  { id: 4, caption: 'Dancing in the rain', aspect: 'tall', pexels: 'https://images.pexels.com/photos/1166583/pexels-photo-1166583.jpeg?auto=compress&cs=tinysrgb&w=400' },
-  { id: 5, caption: 'Stargazing on quiet nights', aspect: 'wide', pexels: 'https://images.pexels.com/photos/1076758/pexels-photo-1076758.jpeg?auto=compress&cs=tinysrgb&w=600' },
-  { id: 6, caption: 'Spontaneous road trips', aspect: 'square', pexels: 'https://images.pexels.com/photos/1114903/pexels-photo-1114903.jpeg?auto=compress&cs=tinysrgb&w=400' },
-  { id: 7, caption: 'Laughter that fills the room', aspect: 'tall', pexels: 'https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=400' },
-  { id: 8, caption: 'Home is wherever you are', aspect: 'wide', pexels: 'https://images.pexels.com/photos/1010654/pexels-photo-1010654.jpeg?auto=compress&cs=tinysrgb&w=600' },
-  { id: 9, caption: 'Every moment a treasure', aspect: 'square', pexels: 'https://images.pexels.com/photos/1028965/pexels-photo-1028965.jpeg?auto=compress&cs=tinysrgb&w=400' },
+  { id: 1,  caption: 'Where it all began',            aspect: 'tall',   image: '/Img1.jpeg' },
+  { id: 2,  caption: 'Every moment counts',           aspect: 'wide',   image: '/img2.jpeg' },
+  { id: 3,  caption: 'Just the two of us',            aspect: 'square', image: '/img3.jpeg' },
+  { id: 4,  caption: 'Together always',               aspect: 'tall',   image: '/img4.jpeg' },
+  { id: 5,  caption: 'You and me',                    aspect: 'wide',   image: '/img_5.jpeg' },
+  { id: 6,  caption: 'Our favourite chapter',         aspect: 'square', image: '/Img7.jpeg' },
+  { id: 7,  caption: 'A love that grows',             aspect: 'tall',   image: '/img8.jpeg' },
+  { id: 8,  caption: 'Smiles that say it all',        aspect: 'wide',   image: '/img9.jpeg' },
+  { id: 9,  caption: 'Endless adventures ahead',      aspect: 'square', image: '/img10.jpeg' },
+  { id: 10, caption: 'My favourite person',           aspect: 'tall',   image: '/img11.jpeg' },
+  { id: 11, caption: 'Our beautiful journey',         aspect: 'wide',   image: '/img12.jpeg' },
+  { id: 12, caption: 'With sunflowers and love',      aspect: 'square', image: '/img13.jpeg' },
+  { id: 13, caption: 'You and your flowers',          aspect: 'tall',   image: '/img14.jpeg' },
+  { id: 14, caption: 'Our special moments',           aspect: 'wide',   image: '/img15.jpeg' },
+  { id: 15, caption: 'Smiles at the station',         aspect: 'square', image: '/img16.jpeg' },
 ];
 
 export default function GallerySection() {
@@ -58,7 +64,7 @@ export default function GallerySection() {
               onClick={() => setSelected(mem.id)}
             >
               <img
-                src={mem.pexels}
+                src={mem.image}
                 alt={mem.caption}
                 className={`w-full object-cover ${
                   mem.aspect === 'tall' ? 'h-80' : mem.aspect === 'wide' ? 'h-52' : 'h-64'
@@ -112,7 +118,7 @@ export default function GallerySection() {
             onClick={(e) => e.stopPropagation()}
           >
             <img
-              src={memories.find((m) => m.id === selected)?.pexels.replace('w=400', 'w=800').replace('w=600', 'w=800')}
+              src={memories.find((m) => m.id === selected)?.image.replace('.jpeg', '.jpeg')}
               alt=""
               className="w-full h-full object-contain rounded-2xl"
             />

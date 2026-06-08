@@ -8,10 +8,9 @@ interface HeroProps {
 
 export default function HeroSection({ musicPlaying, toggleMusic }: HeroProps) {
   const lines = [
-    '6 Years.',
-    '2190 Days.',
-    'Countless Memories.',
-    'One Beautiful Love Story.',
+    'Hey Baby, ❤️',
+    'Happy 6 Years! ❤️',
+    'We did it.',
   ];
 
   return (

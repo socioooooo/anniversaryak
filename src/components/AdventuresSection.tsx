@@ -1,14 +1,12 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef, useState } from 'react';
-import { Plane, Mountain, Waves, Building, TreePine, Heart } from 'lucide-react';
+import { Plane, Mountain, Building, Heart } from 'lucide-react';
 
 const places = [
-  { name: 'Paris', country: 'France', icon: Building, x: 48, y: 22, memory: 'The city of love, where we truly found ours.', date: 'Summer 2022' },
-  { name: 'Bali', country: 'Indonesia', icon: Waves, x: 77, y: 55, memory: 'Temples, sunsets, and the peace of being together.', date: 'Winter 2021' },
-  { name: 'Tokyo', country: 'Japan', icon: TreePine, x: 82, y: 30, memory: 'Neon lights and quiet gardens - contrasts just like us.', date: 'Spring 2023' },
-  { name: 'Swiss Alps', country: 'Switzerland', icon: Mountain, x: 50, y: 24, memory: 'On top of the world, literally and figuratively.', date: 'Fall 2022' },
-  { name: 'Santorini', country: 'Greece', x: 54, y: 32, icon: Building, memory: 'Blue domes and golden sunsets over the Aegean.', date: 'Summer 2023' },
-  { name: 'Home', country: 'Wherever You Are', icon: Heart, x: 45, y: 40, memory: 'The best destination of all - wherever we are together.', date: 'Always' },
+  { name: 'Where We Met', country: 'The Beginning', icon: Heart, x: 45, y: 40, memory: 'A simple moment that changed everything. The day you came for milk and I found my forever.', date: 'Day 1' },
+  { name: 'Lonavala', country: 'First Trip', icon: Plane, x: 40, y: 55, memory: 'Our first long ride together. 🏍️❤️ The roads ended, but our journey never did.', date: 'Year 1' },
+  { name: 'Our Hearts', country: 'Every moment with you', icon: Mountain, x: 50, y: 45, memory: 'Every place is special when we\'re together. Home is wherever you are.', date: 'Every day' },
+  { name: 'Our Future', country: 'Dreams to build', icon: Building, x: 55, y: 35, memory: 'A few more years, and we\'ll build the life we\'ve always dreamed of together.', date: 'Soon' },
 ];
 
 export default function AdventuresSection() {

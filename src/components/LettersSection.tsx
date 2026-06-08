@@ -5,21 +5,21 @@ import { Mail, X } from 'lucide-react';
 const letters = [
   {
     id: 1,
-    title: 'My Dearest',
-    preview: 'A letter from the heart...',
-    content: `My love,\n\nSix years ago, I found the missing piece of my soul in you. Every day since has been a beautiful dream I never want to wake from.\n\nYou are my sunrise and my sunset, my calm in every storm, my reason to smile. When I look at you, I see every beautiful thing this world has to offer.\n\nThank you for choosing me, for loving me, for being my everything.\n\nForever yours,\nWith all my heart`,
+    title: 'My Love',
+    preview: 'Reflecting on our journey...',
+    content: `My Baby,\n\nIt's honestly hard to believe that we've completed six years together. We've been through so many highs and lows, but through everything, we've stayed by each other's side. Looking back, it feels incredible to see how far we've come.\n\nWhat makes me even happier is that things are finally falling into place. My parents know about us now, and that means so much to me. Knowing that the people who matter most to me also know about the person who holds such a special place in my heart is a feeling I can't fully put into words.\n\nWith all my love,\nForever yours ❤️`,
   },
   {
     id: 2,
-    title: 'To My Forever',
-    preview: 'Words cannot express...',
-    content: `My beautiful love,\n\nThey say time flies when you're having fun, but with you, time flies because every moment is lived so fully, so deeply, so perfectly.\n\nI want you to know that I notice everything - the way you tuck your hair behind your ear, the way your eyes light up when you laugh, the way you hold my hand like it's the most natural thing in the world.\n\nYou make ordinary extraordinary.\n\nWith infinite love,\nNow and always`,
+    title: 'They Like You',
+    preview: 'The best part of this journey...',
+    content: `My Love,\n\nThe best part? They genuinely like you. ❤️\n\nThat makes me even more excited about our future. Knowing that the people I love most in this world also see what makes you so special to me is beyond words.\n\nA few more years, and we'll finally get to build the life we've always dreamed of together. Every day with you brings me closer to that dream.\n\nThank you for being you,\nAll my love ❤️✨`,
   },
   {
     id: 3,
-    title: 'A Promise',
-    preview: 'My vow to you...',
-    content: `My darling,\n\nSix years is just the prologue of our story. I promise you a lifetime of adventures, of slow mornings, of laughter that echoes through the years.\n\nI promise to love you on the easy days and the hard ones. To be your partner, your best friend, your biggest supporter, and your safe place.\n\nThis is my promise, renewed today and every day.\n\nYours without end,\nWith my whole heart`,
+    title: 'Our Forever',
+    preview: 'To our beautiful future...',
+    content: `My Darling,\n\nThere are still so many memories to create, so many adventures to have, and so much happiness waiting for us. Even today, it doesn't feel real that we've completed six whole years. Time has flown by, and yet every moment with you remains special.\n\nI'm truly grateful for everything we've shared and for having you in my life. Here's to us, our journey, and all the beautiful years ahead. ❤️✨\n\nHappy 6th Anniversary, Baby. 😘❤️\n\nForever and always,\nYours ❤️`,
   },
 ];
 

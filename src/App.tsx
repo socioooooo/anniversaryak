@@ -5,6 +5,7 @@ import HeartParticles from './components/HeartParticles';
 import MouseGlow from './components/MouseGlow';
 import LoadingScreen from './components/LoadingScreen';
 import HeroSection from './components/HeroSection';
+import AboutSection from './components/AboutSection';
 import TimelineSection from './components/TimelineSection';
 import GallerySection from './components/GallerySection';
 import LoveCounter from './components/LoveCounter';
@@ -58,6 +59,8 @@ function App() {
       {!loading && (
         <main>
           <HeroSection musicPlaying={musicPlaying} toggleMusic={toggleMusic} />
+          <SectionDivider />
+          <AboutSection />
           <SectionDivider />
           <TimelineSection />
           <SectionDivider />

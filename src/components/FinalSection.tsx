@@ -48,12 +48,12 @@ export default function FinalSection() {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 1.2, ease: 'easeOut' }}
         >
-          <p className="font-display text-4xl md:text-6xl lg:text-7xl text-white leading-[1.2]">
-            In every lifetime,
-          </p>
-          <p className="font-display text-4xl md:text-6xl lg:text-7xl text-gradient-gold leading-[1.2] mt-2">
-            I would still choose you.
-          </p>
+        <p className="font-display text-4xl md:text-6xl lg:text-7xl text-white leading-[1.2]">
+          There are still so many memories to create,
+        </p>
+        <p className="font-display text-4xl md:text-6xl lg:text-7xl text-gradient-gold leading-[1.2] mt-2">
+          So much happiness waiting for us.
+        </p>
         </motion.div>
 
         <motion.div
@@ -64,10 +64,10 @@ export default function FinalSection() {
         >
           <div className="w-24 h-[1px] bg-gradient-gold mx-auto mb-8" />
           <p className="font-heading text-xl md:text-2xl text-white/40">
-            Happy 6th Anniversary
+            6th Anniversary
           </p>
           <p className="font-body text-sm text-gold-500/50 mt-4 tracking-[0.3em]">
-            2020 &mdash; 2026
+            2020 &mdash; 2026 &mdash; Forever ❤️✨
           </p>
         </motion.div>
       </div>

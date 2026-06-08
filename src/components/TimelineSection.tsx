@@ -3,12 +3,12 @@ import { useRef } from 'react';
 import { Heart, Camera, MapPin, Coffee, Star, Sparkles } from 'lucide-react';
 
 const milestones = [
-  { year: 'Year 1', title: 'First Meeting', icon: Heart, desc: 'The moment our eyes met and the world stood still. Two strangers who would become everything to each other.', color: 'from-rose-500 to-pink-400' },
-  { year: 'Year 1', title: 'First Date', icon: Coffee, desc: 'Nervous laughter, endless conversation, and the feeling that this was the start of something extraordinary.', color: 'from-amber-500 to-yellow-400' },
-  { year: 'Year 2', title: 'First Selfie', icon: Camera, desc: 'Our first photo together - awkward, genuine, and absolutely perfect. A moment frozen in time.', color: 'from-blue-500 to-cyan-400' },
-  { year: 'Year 3', title: 'First Trip', icon: MapPin, desc: 'Exploring the world together, hand in hand. Every road led us closer to each other.', color: 'from-emerald-500 to-green-400' },
-  { year: 'Year 4-5', title: 'Favorite Moments', icon: Star, desc: 'The quiet mornings, the late-night talks, the ordinary days that became extraordinary because we were together.', color: 'from-violet-500 to-purple-400' },
-  { year: 'Year 6', title: "Today's Anniversary", icon: Sparkles, desc: 'Six years of love, growth, and memories. And this is only the beginning of our forever.', color: 'from-gold-500 to-gold-300' },
+  { year: 'Day 1', title: 'First Meeting', icon: Heart, desc: 'Who would have thought that a simple moment of you coming to buy milk would turn into the most beautiful chapter of my life? ❤️', color: 'from-rose-500 to-pink-400' },
+  { year: 'Day 1', title: 'First Selfie', icon: Camera, desc: 'Our first selfie, taken on the same day we met. ❤️ Back then it was just a photo; today it\'s a reminder of where our beautiful story began.', color: 'from-amber-500 to-yellow-400' },
+  { year: 'Year 1', title: 'First Trip', icon: MapPin, desc: 'Our first long ride to Lonavala. 🏍️❤️ A simple trip that turned into one of my favorite memories. The roads ended, but the journey we started that day never did.', color: 'from-blue-500 to-cyan-400' },
+  { year: 'Year 4-5', title: 'Family Knows', icon: Star, desc: 'One of my happiest moments was telling my family about us. ❤️ After years of memories and dreams together, it felt amazing to finally share our story with the people I love most.', color: 'from-emerald-500 to-green-400' },
+  { year: 'Year 5-6', title: 'They Like You Too', icon: Coffee, desc: 'The best part? They genuinely like you. ❤️ Knowing that the people who matter most to me also know about the person who holds such a special place in my heart is a feeling I can\'t fully put into words.', color: 'from-violet-500 to-purple-400' },
+  { year: 'Year 6', title: "Today's Anniversary", icon: Sparkles, desc: 'Six years of love, growth, and memories. A few more years, and we\'ll finally get to build the life we\'ve always dreamed of together. ❤️✨', color: 'from-gold-500 to-gold-300' },
 ];
 
 export default function TimelineSection() {

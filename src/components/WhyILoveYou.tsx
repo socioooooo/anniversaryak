@@ -3,12 +3,12 @@ import { useRef, useState } from 'react';
 import { Smile, HandHeart, Users, Zap, Music, Infinity } from 'lucide-react';
 
 const reasons = [
-  { front: 'Your Smile', back: 'The way your smile lights up every room and makes the world feel warmer, brighter, and more beautiful.', icon: Smile, color: 'from-amber-400 to-yellow-300' },
-  { front: 'Your Kindness', back: 'The gentle kindness you show to everyone around you - it inspires me to be better every single day.', icon: HandHeart, color: 'from-rose-400 to-pink-300' },
-  { front: 'Your Support', back: 'Through every storm and every celebration, you stand beside me with unwavering strength and love.', icon: Users, color: 'from-blue-400 to-cyan-300' },
-  { front: 'Your Craziness', back: 'The wild, beautiful, unpredictable energy you bring to life that makes every day an adventure.', icon: Zap, color: 'from-emerald-400 to-green-300' },
-  { front: 'Your Laugh', back: 'That infectious laugh that turns ordinary moments into the most precious memories of my life.', icon: Music, color: 'from-violet-400 to-purple-300' },
-  { front: 'Everything About You', back: 'Every imperfection, every quirk, every detail - together they make the most perfect person I have ever known.', icon: Infinity, color: 'from-gold-400 to-gold-200' },
+  { front: 'Your Smile', back: 'The way your smile lights up every room and makes every moment brighter. It\'s my favorite sight in the world.', icon: Smile, color: 'from-amber-400 to-yellow-300' },
+  { front: 'Your Kindness', back: 'The gentle kindness you show to everyone around you. It inspires me to be better, kinder, stronger every single day.', icon: HandHeart, color: 'from-rose-400 to-pink-300' },
+  { front: 'Your Support', back: 'Through every storm and every celebration, you stand beside me with unwavering strength, love, and belief in me. You\'re my rock.', icon: Users, color: 'from-blue-400 to-cyan-300' },
+  { front: 'Your Craziness', back: 'The wild, beautiful, unpredictable energy you bring to life. You make every day an adventure and keep me laughing.', icon: Zap, color: 'from-emerald-400 to-green-300' },
+  { front: 'Your Laugh', back: 'That infectious laugh that turns ordinary moments into the most precious memories of my life. I never want to stop hearing it.', icon: Music, color: 'from-violet-400 to-purple-300' },
+  { front: 'Everything About You', back: 'Every imperfection, every quirk, every detail - together they make the most perfect person I have ever known. You\'re my forever.', icon: Infinity, color: 'from-gold-400 to-gold-200' },
 ];
 
 function FlipCard({ reason, index }: { reason: typeof reasons[0]; index: number }) {

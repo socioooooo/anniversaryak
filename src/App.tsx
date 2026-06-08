@@ -12,7 +12,6 @@ import LoveCounter from './components/LoveCounter';
 import WhyILoveYou from './components/WhyILoveYou';
 import AdventuresSection from './components/AdventuresSection';
 import LettersSection from './components/LettersSection';
-import VideoSection from './components/VideoSection';
 import FutureSection from './components/FutureSection';
 import SurpriseSection from './components/SurpriseSection';
 import FinalSection from './components/FinalSection';
@@ -73,8 +72,6 @@ function App() {
           <AdventuresSection />
           <SectionDivider />
           <LettersSection />
-          <SectionDivider />
-          <VideoSection />
           <SectionDivider />
           <FutureSection />
           <SectionDivider />
